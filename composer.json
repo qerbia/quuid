@@ -1,0 +1,36 @@
+{
+    "name": "qerbia/quuid",
+    "description": "A PHP library to generate, validate, and decode QUUIDs-a custom UUID format that embeds record IDs while maintaining compatibility with the UUID v8 standard.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "uuid",
+        "identifier",
+        "quuid"
+    ],
+    "authors": [
+        {
+            "name": "Jirka Daněk",
+            "homepage": "https://jdanek.eu/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Qerbia\\Quuid\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qerbia\\Quuid\\Tests\\": "tests"
+        }
+    }
+}
